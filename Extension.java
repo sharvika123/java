@@ -5,6 +5,6 @@ class Extension
 		String str;
 		System.out.print("Enter a string:");
 		str=new java.util.Scanner(System.in).nextLine();
-		System.out.println(str.substring(str.indexOf(".")+1,--null));
+		System.out.println(str.substring(str.indexOf(".")+1,str.length()));
 	}
 }
